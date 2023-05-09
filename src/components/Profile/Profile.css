@@ -1,0 +1,10 @@
+.profile {
+  border: 2px solid black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}

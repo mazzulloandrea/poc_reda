@@ -1,0 +1,60 @@
+.modal {
+  height: 90vh;
+  width: 90vw;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: aquamarine;
+  box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+}
+
+.close {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background: aquamarine;
+}
+
+.userGrid {
+  display: grid;
+}
+
+.row {
+  display: flex;
+}
+
+.row > div:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.row > div:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
